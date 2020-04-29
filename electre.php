@@ -30,7 +30,11 @@
         $c5a3 = 4;
         ?>
     <!-- Matrix Normalisasi Keputusan----------------->    
-    <h3><b>Normalisasi Matrix Keputusan</b></h3>
+    <h3><b>Normalisasi Matrix Keputusan</b>
+        <a href="index.php">
+            <button class="btn btn-primary">Kembali</button>
+        </a>
+    </h3>
     <table class="table table-bordered" border="1">
     <tr style="background-color: aqua">
         <th></th>
@@ -589,6 +593,10 @@
         <th><?php echo $fa33*$ga33?></th>
     </tr>
     </table>
-    <h3><b>Pilihan yang terpilih adalah Apartemen 2 dan Apartemen 3</b></h3>
+    <h3><b>Pilihan yang terpilih adalah Apartemen 2 dan Apartemen 3</b>
+        <a href="index.php">
+            <button class="btn btn-primary">Kembali</button>
+        </a>
+    </h3>
     </div>
 </head>

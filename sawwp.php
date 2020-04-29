@@ -30,7 +30,11 @@
     $c4a3 = 4;
     $c5a3 = 4;
     ?>
-    <h3><b>Tabel Nilai Alternatif</b></h3>
+    <h3><b>Tabel Nilai Alternatif</b>
+        <a href="index.php">
+            <button class="btn btn-primary">Kembali</button>
+        </a>
+    </h3>
     <table class="table table-bordered" border="1">
         <table class="table table-bordered" border="1">
       <tr style="background-color: aqua">
@@ -184,10 +188,10 @@
         </table>
     </table>
         <?php
-        if ($vs1 > $vs2) {
+        if ($vs1 > $vs2 && $vs1 > $vs3) {
             echo ("<h4><b>Pilihan yang terpilih adalah Alternatif 1 yaitu Apartemen 1</b></h4>");
         }
-        if ($vs2 > $vs3) {
+        if ($vs2 > $vs3 && $vs2 > $vs1) {
             echo ("<h4><b>Pilihan yang terpilih adalah Alternatif 2 yaitu Apartemen 2</b></h4>");
         } else {
             echo ("<h4><b>Pilihan yang terpilih adalah Alternatif 3 yaitu Apartemen 3</b></h4>");
@@ -250,5 +254,8 @@
 
         ?>
     </div>
+    <a href="index.php">
+        <button class="btn btn-primary">Kembali</button>
+    </a>
     </head>      
       

@@ -26,7 +26,11 @@
         $c43 = 1 / 2;
         $c44 = 1;
         ?>
-        <h2><b>Tabel Kriteria</b></h2>
+        <h2><b>Tabel Kriteria</b>
+        <a href="index.php">
+            <button class="btn btn-primary">Kembali</button>
+        </a>
+        </h2>
         <table class="table table-bordered" border="1">
             <tr style="background-color: aqua">
                 <th>Kriteria</th>
@@ -1028,4 +1032,7 @@
 
         ?>
     </div>
+    <a href="index.php">
+        <button class="btn btn-primary">Kembali</button>
+    </a>
 </head>
